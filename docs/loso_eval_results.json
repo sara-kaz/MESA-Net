@@ -1,0 +1,1502 @@
+{
+  "model": "/Users/HP/Desktop/University/Thesis/Code/multimodal-biomedical-monitoring/training_results/model_v4_finetuned_2026-03-15_05-22-08.pth",
+  "n_subjects": 65,
+  "n_test_subjects": 13,
+  "results": [
+    {
+      "subject": "100",
+      "n_windows": 360,
+      "arrhythmia_acc": 1.0,
+      "arrhythmia_f1_macro": 1.0,
+      "arrhythmia_f1_weighted": 1.0,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": NaN,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 360
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "101",
+      "n_windows": 360,
+      "arrhythmia_acc": 1.0,
+      "arrhythmia_f1_macro": 1.0,
+      "arrhythmia_f1_weighted": 1.0,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": NaN,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 360
+      },
+      "in_training": false,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "102",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.9972222222222222,
+      "arrhythmia_f1_macro": 0.9831452783370008,
+      "arrhythmia_f1_weighted": 0.9972650092857032,
+      "arrhythmia_auc": 0.9998067632850242,
+      "arrhythmia_sensitivity": 0.9971014492753624,
+      "arrhythmia_specificity": 1.0,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 15,
+        "1": 345
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "103",
+      "n_windows": 360,
+      "arrhythmia_acc": 1.0,
+      "arrhythmia_f1_macro": 1.0,
+      "arrhythmia_f1_weighted": 1.0,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": NaN,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 360
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "104",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.9527777777777777,
+      "arrhythmia_f1_macro": 0.7134697317290135,
+      "arrhythmia_f1_weighted": 0.9607789586487091,
+      "arrhythmia_auc": 0.9817142857142857,
+      "arrhythmia_sensitivity": 0.96,
+      "arrhythmia_specificity": 0.7,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 10,
+        "1": 350
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "105",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.9805555555555555,
+      "arrhythmia_f1_macro": 0.4950911640953717,
+      "arrhythmia_f1_weighted": 0.9901823281907434,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": 0.9805555555555555,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 360
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "106",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.575,
+      "arrhythmia_f1_macro": 0.5676303663524112,
+      "arrhythmia_f1_weighted": 0.5924048794655824,
+      "arrhythmia_auc": 0.6742994762796743,
+      "arrhythmia_sensitivity": 0.7920792079207921,
+      "arrhythmia_specificity": 0.49034749034749037,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 259,
+        "1": 101
+      },
+      "in_training": false,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "107",
+      "n_windows": 360,
+      "arrhythmia_acc": 1.0,
+      "arrhythmia_f1_macro": 1.0,
+      "arrhythmia_f1_weighted": 1.0,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": NaN,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "1": 360
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "108",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.9861111111111112,
+      "arrhythmia_f1_macro": 0.4965034965034965,
+      "arrhythmia_f1_weighted": 0.993006993006993,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": 0.9861111111111112,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 360
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "109",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.9861111111111112,
+      "arrhythmia_f1_macro": 0.4965034965034965,
+      "arrhythmia_f1_weighted": 0.993006993006993,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": 0.9861111111111112,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 360
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "111",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.9444444444444444,
+      "arrhythmia_f1_macro": 0.4857142857142857,
+      "arrhythmia_f1_weighted": 0.9714285714285714,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": 0.9444444444444444,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 360
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "112",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.9777777777777777,
+      "arrhythmia_f1_macro": 0.4943820224719101,
+      "arrhythmia_f1_weighted": 0.9887640449438202,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": 0.9777777777777777,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 360
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "113",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.9416666666666667,
+      "arrhythmia_f1_macro": 0.48497854077253216,
+      "arrhythmia_f1_weighted": 0.9699570815450643,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": 0.9416666666666667,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 360
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "114",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.9138888888888889,
+      "arrhythmia_f1_macro": 0.47750362844702465,
+      "arrhythmia_f1_weighted": 0.9550072568940493,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": 0.9138888888888889,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 360
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "115",
+      "n_windows": 360,
+      "arrhythmia_acc": 1.0,
+      "arrhythmia_f1_macro": 1.0,
+      "arrhythmia_f1_weighted": 1.0,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": NaN,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 360
+      },
+      "in_training": false,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "116",
+      "n_windows": 360,
+      "arrhythmia_acc": 1.0,
+      "arrhythmia_f1_macro": 1.0,
+      "arrhythmia_f1_weighted": 1.0,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": NaN,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 360
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "117",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.8833333333333333,
+      "arrhythmia_f1_macro": 0.4690265486725664,
+      "arrhythmia_f1_weighted": 0.9380530973451328,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": 0.8833333333333333,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 360
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "118",
+      "n_windows": 360,
+      "arrhythmia_acc": 1.0,
+      "arrhythmia_f1_macro": 1.0,
+      "arrhythmia_f1_weighted": 1.0,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": NaN,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 360
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "119",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.8305555555555556,
+      "arrhythmia_f1_macro": 0.49806861557450116,
+      "arrhythmia_f1_weighted": 0.8997763860635566,
+      "arrhythmia_auc": 0.9365079365079365,
+      "arrhythmia_sensitivity": 1.0,
+      "arrhythmia_specificity": 0.8291316526610645,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 357,
+        "1": 3
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "121",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.9888888888888889,
+      "arrhythmia_f1_macro": 0.4972067039106145,
+      "arrhythmia_f1_weighted": 0.994413407821229,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": 0.9888888888888889,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 360
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "122",
+      "n_windows": 360,
+      "arrhythmia_acc": 1.0,
+      "arrhythmia_f1_macro": 1.0,
+      "arrhythmia_f1_weighted": 1.0,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": NaN,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 360
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "123",
+      "n_windows": 360,
+      "arrhythmia_acc": 1.0,
+      "arrhythmia_f1_macro": 1.0,
+      "arrhythmia_f1_weighted": 1.0,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": NaN,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 360
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "124",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.9694444444444444,
+      "arrhythmia_f1_macro": 0.7529786039548375,
+      "arrhythmia_f1_weighted": 0.9675174488317775,
+      "arrhythmia_auc": 0.9651961870982044,
+      "arrhythmia_sensitivity": 0.46153846153846156,
+      "arrhythmia_specificity": 0.9884726224783862,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 347,
+        "1": 13
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "200",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.7027777777777777,
+      "arrhythmia_f1_macro": 0.6860917114195142,
+      "arrhythmia_f1_weighted": 0.681266824761703,
+      "arrhythmia_auc": 0.9655567956349206,
+      "arrhythmia_sensitivity": 1.0,
+      "arrhythmia_specificity": 0.4427083333333333,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 192,
+        "1": 168
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "201",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.8833333333333333,
+      "arrhythmia_f1_macro": 0.4690265486725664,
+      "arrhythmia_f1_weighted": 0.9380530973451328,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": 0.8833333333333333,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 360
+      },
+      "in_training": false,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "202",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.975,
+      "arrhythmia_f1_macro": 0.4936708860759494,
+      "arrhythmia_f1_weighted": 0.9736286919831223,
+      "arrhythmia_auc": 0.5250704225352113,
+      "arrhythmia_sensitivity": 0.0,
+      "arrhythmia_specificity": 0.9887323943661972,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 355,
+        "1": 5
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "203",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.5972222222222222,
+      "arrhythmia_f1_macro": 0.42997542997543,
+      "arrhythmia_f1_weighted": 0.7198698698698698,
+      "arrhythmia_auc": 0.8450117218025528,
+      "arrhythmia_sensitivity": 0.9090909090909091,
+      "arrhythmia_specificity": 0.5873925501432665,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 349,
+        "1": 11
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "205",
+      "n_windows": 360,
+      "arrhythmia_acc": 1.0,
+      "arrhythmia_f1_macro": 1.0,
+      "arrhythmia_f1_weighted": 1.0,
+      "arrhythmia_auc": 1.0,
+      "arrhythmia_sensitivity": 1.0,
+      "arrhythmia_specificity": 1.0,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 354,
+        "1": 6
+      },
+      "in_training": false,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "207",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.8166666666666667,
+      "arrhythmia_f1_macro": 0.6902216427640157,
+      "arrhythmia_f1_weighted": 0.8375575836592785,
+      "arrhythmia_auc": 0.9090279700913874,
+      "arrhythmia_sensitivity": 0.6956521739130435,
+      "arrhythmia_specificity": 0.8343949044585988,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 314,
+        "1": 46
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "208",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.8777777777777778,
+      "arrhythmia_f1_macro": 0.7258377180836333,
+      "arrhythmia_f1_weighted": 0.8562340379703991,
+      "arrhythmia_auc": 0.9299087353324641,
+      "arrhythmia_sensitivity": 0.9898305084745763,
+      "arrhythmia_specificity": 0.36923076923076925,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 65,
+        "1": 295
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "209",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.9388888888888889,
+      "arrhythmia_f1_macro": 0.48424068767908307,
+      "arrhythmia_f1_weighted": 0.9092964024196116,
+      "arrhythmia_auc": 0.872512103281334,
+      "arrhythmia_sensitivity": 0.0,
+      "arrhythmia_specificity": 1.0,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 338,
+        "1": 22
+      },
+      "in_training": false,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "210",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.9388888888888889,
+      "arrhythmia_f1_macro": 0.7088235294117647,
+      "arrhythmia_f1_weighted": 0.9532679738562092,
+      "arrhythmia_auc": 0.9791428571428572,
+      "arrhythmia_sensitivity": 0.9,
+      "arrhythmia_specificity": 0.94,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 350,
+        "1": 10
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "212",
+      "n_windows": 360,
+      "arrhythmia_acc": 1.0,
+      "arrhythmia_f1_macro": 1.0,
+      "arrhythmia_f1_weighted": 1.0,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": NaN,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 360
+      },
+      "in_training": false,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "213",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.7138888888888889,
+      "arrhythmia_f1_macro": 0.4165316045380875,
+      "arrhythmia_f1_weighted": 0.5947145687016028,
+      "arrhythmia_auc": 0.7387329530429527,
+      "arrhythmia_sensitivity": 0.0,
+      "arrhythmia_specificity": 1.0,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 257,
+        "1": 103
+      },
+      "in_training": false,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "214",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.9833333333333333,
+      "arrhythmia_f1_macro": 0.4957983193277311,
+      "arrhythmia_f1_weighted": 0.9915966386554623,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": 0.9833333333333333,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 360
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "215",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.9972222222222222,
+      "arrhythmia_f1_macro": 0.4993045897079277,
+      "arrhythmia_f1_weighted": 0.9986091794158554,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": 0.9972222222222222,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 360
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "217",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.9638888888888889,
+      "arrhythmia_f1_macro": 0.8628330255869163,
+      "arrhythmia_f1_weighted": 0.9648700137753158,
+      "arrhythmia_auc": 0.9820188492063492,
+      "arrhythmia_sensitivity": 0.9761904761904762,
+      "arrhythmia_specificity": 0.7916666666666666,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 24,
+        "1": 336
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "219",
+      "n_windows": 360,
+      "arrhythmia_acc": 1.0,
+      "arrhythmia_f1_macro": 1.0,
+      "arrhythmia_f1_weighted": 1.0,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": NaN,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 360
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "220",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.9944444444444445,
+      "arrhythmia_f1_macro": 0.4986072423398329,
+      "arrhythmia_f1_weighted": 0.9916744042092231,
+      "arrhythmia_auc": 0.963687150837989,
+      "arrhythmia_sensitivity": 0.0,
+      "arrhythmia_specificity": 1.0,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 358,
+        "1": 2
+      },
+      "in_training": false,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "221",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.9416666666666667,
+      "arrhythmia_f1_macro": 0.48497854077253216,
+      "arrhythmia_f1_weighted": 0.9699570815450643,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": 0.9416666666666667,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 360
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "222",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.9361111111111111,
+      "arrhythmia_f1_macro": 0.4835007173601148,
+      "arrhythmia_f1_weighted": 0.913279132791328,
+      "arrhythmia_auc": 0.449264705882353,
+      "arrhythmia_sensitivity": 0.0,
+      "arrhythmia_specificity": 0.9911764705882353,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 340,
+        "1": 20
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "223",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.9611111111111111,
+      "arrhythmia_f1_macro": 0.9432406865174107,
+      "arrhythmia_f1_weighted": 0.9604033715232418,
+      "arrhythmia_auc": 0.9762080814231655,
+      "arrhythmia_sensitivity": 0.8674698795180723,
+      "arrhythmia_specificity": 0.9891696750902527,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 277,
+        "1": 83
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "228",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.8194444444444444,
+      "arrhythmia_f1_macro": 0.6930704757407626,
+      "arrhythmia_f1_weighted": 0.841874456205704,
+      "arrhythmia_auc": 0.8616944764096663,
+      "arrhythmia_sensitivity": 0.7272727272727273,
+      "arrhythmia_specificity": 0.8322784810126582,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 316,
+        "1": 44
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "230",
+      "n_windows": 360,
+      "arrhythmia_acc": 1.0,
+      "arrhythmia_f1_macro": 1.0,
+      "arrhythmia_f1_weighted": 1.0,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": NaN,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 360
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "231",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.9861111111111112,
+      "arrhythmia_f1_macro": 0.4965034965034965,
+      "arrhythmia_f1_weighted": 0.993006993006993,
+      "arrhythmia_auc": NaN,
+      "arrhythmia_sensitivity": NaN,
+      "arrhythmia_specificity": 0.9861111111111112,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 360
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "232",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.8222222222222222,
+      "arrhythmia_f1_macro": 0.5857307249712314,
+      "arrhythmia_f1_weighted": 0.7665771640455186,
+      "arrhythmia_auc": 0.7221089696071163,
+      "arrhythmia_sensitivity": 1.0,
+      "arrhythmia_specificity": 0.15789473684210525,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 76,
+        "1": 284
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "233",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.5805555555555556,
+      "arrhythmia_f1_macro": 0.561524500907441,
+      "arrhythmia_f1_weighted": 0.6021240841567521,
+      "arrhythmia_auc": 0.6568846153846154,
+      "arrhythmia_sensitivity": 0.67,
+      "arrhythmia_specificity": 0.5461538461538461,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 260,
+        "1": 100
+      },
+      "in_training": true,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "234",
+      "n_windows": 360,
+      "arrhythmia_acc": 0.9861111111111112,
+      "arrhythmia_f1_macro": 0.4965034965034965,
+      "arrhythmia_f1_weighted": 0.9792152292152292,
+      "arrhythmia_auc": 0.5053521126760563,
+      "arrhythmia_sensitivity": 0.0,
+      "arrhythmia_specificity": 1.0,
+      "arrhythmia_n_samples": 360,
+      "arrhythmia_class_dist": {
+        "0": 355,
+        "1": 5
+      },
+      "in_training": false,
+      "tasks": [
+        "arrhythmia"
+      ]
+    },
+    {
+      "subject": "S1",
+      "n_windows": 1841,
+      "activity_acc": 0.9201520912547528,
+      "activity_f1_macro": 0.2398753894080997,
+      "activity_f1_weighted": 0.9412600831526954,
+      "activity_auc": 0.6807779852578013,
+      "activity_sensitivity": NaN,
+      "activity_specificity": NaN,
+      "activity_n_samples": 1841,
+      "activity_class_dist": {
+        "0": 1806,
+        "1": 6,
+        "2": 3,
+        "3": 26
+      },
+      "in_training": false,
+      "tasks": [
+        "activity"
+      ]
+    },
+    {
+      "subject": "S10",
+      "n_windows": 3226,
+      "activity_acc": 0.9144736842105263,
+      "activity_f1_macro": 0.2811353615026279,
+      "activity_f1_weighted": 0.9429997731685522,
+      "activity_auc": 0.7676475190207278,
+      "activity_sensitivity": NaN,
+      "activity_specificity": NaN,
+      "activity_n_samples": 2128,
+      "activity_class_dist": {
+        "0": 2096,
+        "1": 4,
+        "2": 4,
+        "3": 24
+      },
+      "stress_acc": 0.8934426229508197,
+      "stress_f1_macro": 0.8469875973553411,
+      "stress_f1_weighted": 0.8950551114425636,
+      "stress_auc": 0.9225539738094302,
+      "stress_sensitivity": 0.7966101694915254,
+      "stress_specificity": 0.919953596287703,
+      "stress_n_samples": 1098,
+      "stress_class_dist": {
+        "0": 862,
+        "1": 236
+      },
+      "in_training": true,
+      "tasks": [
+        "activity",
+        "stress"
+      ]
+    },
+    {
+      "subject": "S11",
+      "n_windows": 2853,
+      "activity_acc": 0.9474557522123894,
+      "activity_f1_macro": 0.3746525371917669,
+      "activity_f1_weighted": 0.9557886241616185,
+      "activity_auc": 0.8582132852466544,
+      "activity_sensitivity": NaN,
+      "activity_specificity": NaN,
+      "activity_n_samples": 1808,
+      "activity_class_dist": {
+        "0": 1774,
+        "1": 5,
+        "2": 3,
+        "3": 26
+      },
+      "stress_acc": 0.9253588516746412,
+      "stress_f1_macro": 0.8850132042253521,
+      "stress_f1_weighted": 0.9223606290855179,
+      "stress_auc": 0.9852035364857221,
+      "stress_sensitivity": 0.7372881355932204,
+      "stress_specificity": 0.9802224969097652,
+      "stress_n_samples": 1045,
+      "stress_class_dist": {
+        "0": 809,
+        "1": 236
+      },
+      "in_training": true,
+      "tasks": [
+        "activity",
+        "stress"
+      ]
+    },
+    {
+      "subject": "S12",
+      "n_windows": 1581,
+      "activity_acc": 0.9512966476913346,
+      "activity_f1_macro": 0.2841110807025146,
+      "activity_f1_weighted": 0.9592809484648016,
+      "activity_auc": 0.874775998169109,
+      "activity_sensitivity": NaN,
+      "activity_specificity": NaN,
+      "activity_n_samples": 1581,
+      "activity_class_dist": {
+        "0": 1553,
+        "1": 5,
+        "2": 4,
+        "3": 19
+      },
+      "in_training": false,
+      "tasks": [
+        "activity"
+      ]
+    },
+    {
+      "subject": "S13",
+      "n_windows": 2932,
+      "activity_acc": 0.9529025191675794,
+      "activity_f1_macro": 0.287661544123545,
+      "activity_f1_weighted": 0.9592020471574757,
+      "activity_auc": 0.8173782756698177,
+      "activity_sensitivity": NaN,
+      "activity_specificity": NaN,
+      "activity_n_samples": 1826,
+      "activity_class_dist": {
+        "0": 1794,
+        "1": 5,
+        "2": 4,
+        "3": 23
+      },
+      "stress_acc": 0.7721518987341772,
+      "stress_f1_macro": 0.4879065152684379,
+      "stress_f1_weighted": 0.7066098807020287,
+      "stress_auc": 0.6536041301383206,
+      "stress_sensitivity": 0.0635593220338983,
+      "stress_specificity": 0.964367816091954,
+      "stress_n_samples": 1106,
+      "stress_class_dist": {
+        "0": 870,
+        "1": 236
+      },
+      "in_training": true,
+      "tasks": [
+        "activity",
+        "stress"
+      ]
+    },
+    {
+      "subject": "S14",
+      "n_windows": 2898,
+      "activity_acc": 0.9307262569832402,
+      "activity_f1_macro": 0.31071909126479086,
+      "activity_f1_weighted": 0.9485332403699037,
+      "activity_auc": 0.7537786428874879,
+      "activity_sensitivity": NaN,
+      "activity_specificity": NaN,
+      "activity_n_samples": 1790,
+      "activity_class_dist": {
+        "0": 1759,
+        "1": 5,
+        "2": 4,
+        "3": 22
+      },
+      "stress_acc": 0.9178700361010831,
+      "stress_f1_macro": 0.8609236354507623,
+      "stress_f1_weighted": 0.9120067254558455,
+      "stress_auc": 0.9460328875758046,
+      "stress_sensitivity": 0.652542372881356,
+      "stress_specificity": 0.9896788990825688,
+      "stress_n_samples": 1108,
+      "stress_class_dist": {
+        "0": 872,
+        "1": 236
+      },
+      "in_training": true,
+      "tasks": [
+        "activity",
+        "stress"
+      ]
+    },
+    {
+      "subject": "S15",
+      "n_windows": 2635,
+      "activity_acc": 0.9350567465321563,
+      "activity_f1_macro": 0.34918264088273376,
+      "activity_f1_weighted": 0.9514012001156605,
+      "activity_auc": 0.7472783844627513,
+      "activity_sensitivity": NaN,
+      "activity_specificity": NaN,
+      "activity_n_samples": 1586,
+      "activity_class_dist": {
+        "0": 1559,
+        "1": 5,
+        "2": 3,
+        "3": 19
+      },
+      "stress_acc": 0.778836987607245,
+      "stress_f1_macro": 0.5411406247643181,
+      "stress_f1_weighted": 0.7234269745471719,
+      "stress_auc": 0.8231951487270636,
+      "stress_sensitivity": 0.13191489361702127,
+      "stress_specificity": 0.9656019656019657,
+      "stress_n_samples": 1049,
+      "stress_class_dist": {
+        "0": 814,
+        "1": 235
+      },
+      "in_training": true,
+      "tasks": [
+        "activity",
+        "stress"
+      ]
+    },
+    {
+      "subject": "S16",
+      "n_windows": 1125,
+      "stress_acc": 0.9048888888888889,
+      "stress_f1_macro": 0.8469992793237082,
+      "stress_f1_weighted": 0.9016263241879611,
+      "stress_auc": 0.9457636651350784,
+      "stress_sensitivity": 0.690677966101695,
+      "stress_specificity": 0.9617547806524185,
+      "stress_n_samples": 1125,
+      "stress_class_dist": {
+        "0": 889,
+        "1": 236
+      },
+      "in_training": true,
+      "tasks": [
+        "stress"
+      ]
+    },
+    {
+      "subject": "S17",
+      "n_windows": 1183,
+      "stress_acc": 0.9366018596787827,
+      "stress_f1_macro": 0.8936131944819152,
+      "stress_f1_weighted": 0.9342580627731025,
+      "stress_auc": 0.9495149714531168,
+      "stress_sensitivity": 0.7542372881355932,
+      "stress_specificity": 0.9820485744456178,
+      "stress_n_samples": 1183,
+      "stress_class_dist": {
+        "0": 947,
+        "1": 236
+      },
+      "in_training": true,
+      "tasks": [
+        "stress"
+      ]
+    },
+    {
+      "subject": "S2",
+      "n_windows": 2854,
+      "activity_acc": 0.9603658536585366,
+      "activity_f1_macro": 0.36909329794983875,
+      "activity_f1_weighted": 0.9666683159081043,
+      "activity_auc": 0.8557857666903435,
+      "activity_sensitivity": NaN,
+      "activity_specificity": NaN,
+      "activity_n_samples": 1640,
+      "activity_class_dist": {
+        "0": 1615,
+        "1": 5,
+        "2": 3,
+        "3": 17
+      },
+      "stress_acc": 0.8253706754530478,
+      "stress_f1_macro": 0.7306164145548024,
+      "stress_f1_weighted": 0.8301083884979601,
+      "stress_auc": 0.8562276948994747,
+      "stress_sensitivity": 0.6157205240174672,
+      "stress_specificity": 0.8741116751269036,
+      "stress_n_samples": 1214,
+      "stress_class_dist": {
+        "0": 985,
+        "1": 229
+      },
+      "in_training": true,
+      "tasks": [
+        "activity",
+        "stress"
+      ]
+    },
+    {
+      "subject": "S3",
+      "n_windows": 3044,
+      "activity_acc": 0.9353176874642244,
+      "activity_f1_macro": 0.2730180213586473,
+      "activity_f1_weighted": 0.9490907581195682,
+      "activity_auc": 0.7968495190409688,
+      "activity_sensitivity": NaN,
+      "activity_specificity": NaN,
+      "activity_n_samples": 1747,
+      "activity_class_dist": {
+        "0": 1714,
+        "1": 5,
+        "2": 4,
+        "3": 24
+      },
+      "stress_acc": 0.8804934464148034,
+      "stress_f1_macro": 0.7288107928003033,
+      "stress_f1_weighted": 0.8603212172227719,
+      "stress_auc": 0.9159363563258005,
+      "stress_sensitivity": 0.37719298245614036,
+      "stress_specificity": 0.9878391019644528,
+      "stress_n_samples": 1297,
+      "stress_class_dist": {
+        "0": 1069,
+        "1": 228
+      },
+      "in_training": true,
+      "tasks": [
+        "activity",
+        "stress"
+      ]
+    },
+    {
+      "subject": "S4",
+      "n_windows": 3112,
+      "activity_acc": 0.9453253143794423,
+      "activity_f1_macro": 0.2583947583947584,
+      "activity_f1_weighted": 0.9561156165858189,
+      "activity_auc": 0.6357888217468591,
+      "activity_sensitivity": NaN,
+      "activity_specificity": NaN,
+      "activity_n_samples": 1829,
+      "activity_class_dist": {
+        "0": 1797,
+        "1": 5,
+        "2": 4,
+        "3": 23
+      },
+      "stress_acc": 0.7575993764614185,
+      "stress_f1_macro": 0.6565186588652745,
+      "stress_f1_weighted": 0.7757532409722203,
+      "stress_auc": 0.7878829029019143,
+      "stress_sensitivity": 0.5974025974025974,
+      "stress_specificity": 0.7927756653992395,
+      "stress_n_samples": 1283,
+      "stress_class_dist": {
+        "0": 1052,
+        "1": 231
+      },
+      "in_training": false,
+      "tasks": [
+        "activity",
+        "stress"
+      ]
+    },
+    {
+      "subject": "S5",
+      "n_windows": 3110,
+      "activity_acc": 0.9424731182795699,
+      "activity_f1_macro": 0.4695898647392357,
+      "activity_f1_weighted": 0.9626782230325596,
+      "activity_auc": 0.9679392246095954,
+      "activity_sensitivity": NaN,
+      "activity_specificity": NaN,
+      "activity_n_samples": 1860,
+      "activity_class_dist": {
+        "0": 1827,
+        "1": 5,
+        "2": 3,
+        "3": 25
+      },
+      "stress_acc": 0.8472,
+      "stress_f1_macro": 0.6413501158946118,
+      "stress_f1_weighted": 0.8087254176487289,
+      "stress_auc": 0.9199587458745874,
+      "stress_sensitivity": 0.23333333333333334,
+      "stress_specificity": 0.9930693069306931,
+      "stress_n_samples": 1250,
+      "stress_class_dist": {
+        "0": 1010,
+        "1": 240
+      },
+      "in_training": true,
+      "tasks": [
+        "activity",
+        "stress"
+      ]
+    },
+    {
+      "subject": "S6",
+      "n_windows": 2462,
+      "activity_acc": 0.909437559580553,
+      "activity_f1_macro": 0.2473901937919929,
+      "activity_f1_weighted": 0.9371931447685753,
+      "activity_auc": 0.6832907296050561,
+      "activity_sensitivity": NaN,
+      "activity_specificity": NaN,
+      "activity_n_samples": 1049,
+      "activity_class_dist": {
+        "0": 1032,
+        "1": 5,
+        "2": 3,
+        "3": 9
+      },
+      "stress_acc": 0.8131634819532909,
+      "stress_f1_macro": 0.5422920245398772,
+      "stress_f1_weighted": 0.7767814830734763,
+      "stress_auc": 0.586686203073024,
+      "stress_sensitivity": 0.13135593220338984,
+      "stress_specificity": 0.9498725573491928,
+      "stress_n_samples": 1413,
+      "stress_class_dist": {
+        "0": 1177,
+        "1": 236
+      },
+      "in_training": true,
+      "tasks": [
+        "activity",
+        "stress"
+      ]
+    },
+    {
+      "subject": "S7",
+      "n_windows": 2913,
+      "activity_acc": 0.9496518478843063,
+      "activity_f1_macro": 0.40535805005561487,
+      "activity_f1_weighted": 0.9582496762080478,
+      "activity_auc": 0.9156291346243052,
+      "activity_sensitivity": NaN,
+      "activity_specificity": NaN,
+      "activity_n_samples": 1867,
+      "activity_class_dist": {
+        "0": 1830,
+        "1": 5,
+        "2": 4,
+        "3": 28
+      },
+      "stress_acc": 0.8298279158699808,
+      "stress_f1_macro": 0.6665042665845113,
+      "stress_f1_weighted": 0.794128757556217,
+      "stress_auc": 0.941335085770316,
+      "stress_sensitivity": 0.2869198312236287,
+      "stress_specificity": 0.9888751545117429,
+      "stress_n_samples": 1046,
+      "stress_class_dist": {
+        "0": 809,
+        "1": 237
+      },
+      "in_training": true,
+      "tasks": [
+        "activity",
+        "stress"
+      ]
+    },
+    {
+      "subject": "S8",
+      "n_windows": 2707,
+      "activity_acc": 0.9120743034055727,
+      "activity_f1_macro": 0.29078721181763595,
+      "activity_f1_weighted": 0.9378824085552109,
+      "activity_auc": 0.8487565561684738,
+      "activity_sensitivity": NaN,
+      "activity_specificity": NaN,
+      "activity_n_samples": 1615,
+      "activity_class_dist": {
+        "0": 1587,
+        "1": 5,
+        "2": 3,
+        "3": 20
+      },
+      "stress_acc": 0.8928571428571429,
+      "stress_f1_macro": 0.8219919943489522,
+      "stress_f1_weighted": 0.8861717514884457,
+      "stress_auc": 0.9212589404897096,
+      "stress_sensitivity": 0.6111111111111112,
+      "stress_specificity": 0.9696969696969697,
+      "stress_n_samples": 1092,
+      "stress_class_dist": {
+        "0": 858,
+        "1": 234
+      },
+      "in_training": true,
+      "tasks": [
+        "activity",
+        "stress"
+      ]
+    },
+    {
+      "subject": "S9",
+      "n_windows": 2754,
+      "activity_acc": 0.9240210403272939,
+      "activity_f1_macro": 0.377223760857128,
+      "activity_f1_weighted": 0.9464801436265613,
+      "activity_auc": 0.8683182080582316,
+      "activity_sensitivity": NaN,
+      "activity_specificity": NaN,
+      "activity_n_samples": 1711,
+      "activity_class_dist": {
+        "0": 1680,
+        "1": 5,
+        "2": 4,
+        "3": 22
+      },
+      "stress_acc": 0.8686481303930969,
+      "stress_f1_macro": 0.7954237314828203,
+      "stress_f1_weighted": 0.8624287503574483,
+      "stress_auc": 0.9135267678995233,
+      "stress_sensitivity": 0.597457627118644,
+      "stress_specificity": 0.9479553903345725,
+      "stress_n_samples": 1043,
+      "stress_class_dist": {
+        "0": 807,
+        "1": 236
+      },
+      "in_training": true,
+      "tasks": [
+        "activity",
+        "stress"
+      ]
+    }
+  ],
+  "test_summary": {
+    "activity_acc_mean": 0.9389246844418433,
+    "activity_acc_std": 0.013496219139853547,
+    "activity_acc_n": 3,
+    "activity_f1_macro_mean": 0.2607937428351242,
+    "activity_f1_macro_std": 0.018138640905215442,
+    "activity_f1_macro_n": 3,
+    "activity_f1_weighted_mean": 0.9522188827344387,
+    "activity_f1_weighted_std": 0.007856050648200533,
+    "activity_f1_weighted_n": 3,
+    "activity_auc_mean": 0.7304476017245899,
+    "activity_auc_std": 0.10369513239472172,
+    "activity_auc_n": 3,
+    "stress_acc_mean": 0.7575993764614185,
+    "stress_acc_std": 0.0,
+    "stress_acc_n": 1,
+    "stress_f1_macro_mean": 0.6565186588652745,
+    "stress_f1_macro_std": 0.0,
+    "stress_f1_macro_n": 1,
+    "stress_f1_weighted_mean": 0.7757532409722203,
+    "stress_f1_weighted_std": 0.0,
+    "stress_f1_weighted_n": 1,
+    "stress_auc_mean": 0.7878829029019143,
+    "stress_auc_std": 0.0,
+    "stress_auc_n": 1,
+    "stress_sensitivity_mean": 0.5974025974025974,
+    "stress_sensitivity_std": 0.0,
+    "stress_sensitivity_n": 1,
+    "stress_specificity_mean": 0.7927756653992395,
+    "stress_specificity_std": 0.0,
+    "stress_specificity_n": 1,
+    "arrhythmia_acc_mean": 0.9091666666666665,
+    "arrhythmia_acc_std": 0.14055143823569882,
+    "arrhythmia_acc_n": 10,
+    "arrhythmia_f1_macro_mean": 0.6932539946085476,
+    "arrhythmia_f1_macro_std": 0.252842174309371,
+    "arrhythmia_f1_macro_n": 10,
+    "arrhythmia_f1_weighted_mean": 0.9005358581356383,
+    "arrhythmia_f1_weighted_std": 0.15621292889593322,
+    "arrhythmia_f1_weighted_n": 10,
+    "arrhythmia_auc_mean": 0.7924306326863344,
+    "arrhythmia_auc_std": 0.17227853742966692,
+    "arrhythmia_auc_n": 6,
+    "arrhythmia_sensitivity_mean": 0.2986798679867987,
+    "arrhythmia_sensitivity_std": 0.4266402642306436,
+    "arrhythmia_sensitivity_n": 6,
+    "arrhythmia_specificity_mean": 0.9105258319544033,
+    "arrhythmia_specificity_std": 0.1761968884410079,
+    "arrhythmia_specificity_n": 7
+  },
+  "all_summary": {
+    "activity_acc_mean": 0.9353820282020986,
+    "activity_acc_std": 0.015746582337111216,
+    "activity_acc_n": 15,
+    "activity_f1_macro_mean": 0.3212128536027288,
+    "activity_f1_macro_std": 0.06410549541068396,
+    "activity_f1_macro_n": 15,
+    "activity_f1_weighted_mean": 0.951521613559677,
+    "activity_f1_weighted_std": 0.008821156340060133,
+    "activity_f1_weighted_n": 15,
+    "activity_auc_mean": 0.8048138700838791,
+    "activity_auc_std": 0.08997695875604671,
+    "activity_auc_n": 15,
+    "stress_acc_mean": 0.8562874210025613,
+    "stress_acc_std": 0.056123231631808025,
+    "stress_acc_n": 15,
+    "stress_f1_macro_mean": 0.7297394699960658,
+    "stress_f1_macro_std": 0.13034806911792743,
+    "stress_f1_macro_n": 15,
+    "stress_f1_weighted_mean": 0.8393175143340973,
+    "stress_f1_weighted_std": 0.06995668816647072,
+    "stress_f1_weighted_n": 15,
+    "stress_auc_mean": 0.8712454007039256,
+    "stress_auc_std": 0.11084178499331218,
+    "stress_auc_n": 15,
+    "stress_sensitivity_mean": 0.48515493911470814,
+    "stress_sensitivity_std": 0.2454146208365034,
+    "stress_sensitivity_n": 15,
+    "stress_specificity_mean": 0.9511882633590506,
+    "stress_specificity_std": 0.052059773111531586,
+    "stress_specificity_n": 15,
+    "arrhythmia_acc_mean": 0.9238425925925925,
+    "arrhythmia_acc_std": 0.11336095077750406,
+    "arrhythmia_acc_n": 48,
+    "arrhythmia_f1_macro_mean": 0.6899628762062084,
+    "arrhythmia_f1_macro_std": 0.22467758703060806,
+    "arrhythmia_f1_macro_n": 48,
+    "arrhythmia_f1_weighted_mean": 0.9301799844914695,
+    "arrhythmia_f1_weighted_std": 0.11260946609835384,
+    "arrhythmia_f1_weighted_n": 48,
+    "arrhythmia_auc_mean": 0.8381685076898235,
+    "arrhythmia_auc_std": 0.17171161632618748,
+    "arrhythmia_auc_n": 22,
+    "arrhythmia_sensitivity_mean": 0.63391935423611,
+    "arrhythmia_sensitivity_std": 0.41003637285852595,
+    "arrhythmia_sensitivity_n": 22,
+    "arrhythmia_specificity_mean": 0.8575887510504809,
+    "arrhythmia_specificity_std": 0.21029315019460348,
+    "arrhythmia_specificity_n": 36
+  }
+}

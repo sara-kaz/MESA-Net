@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use MESA-Net in your research, please cite the following."
+type: software
+title: "MESA-Net: Multimodal Edge Sensing and Adaptation Network for Real-Time Biomedical Monitoring"
+authors:
+  - family-names: Aly
+    given-names: Sara
+    email: sarakhaledsea@gmail.com
+    affiliation: "California State University, Northridge"
+repository-code: "https://github.com/saraaly/MESA-Net"
+license: MIT
+version: "1.0.0"
+date-released: "2026-06-07"
+keywords:
+  - edge-ai
+  - tinyml
+  - biomedical
+  - esp32
+  - ecg
+  - ppg
+  - arrhythmia
+  - stress-detection
+  - activity-recognition
+  - on-device-learning
+  - wearable
+preferred-citation:
+  type: article
+  title: >
+    MESA-Net: Multimodal Edge Sensing and Adaptation for Real-Time
+    Biomedical Monitoring on Resource-Constrained Devices
+  authors:
+    - family-names: Aly
+      given-names: Sara
+    - family-names: Mirzaei
+      given-names: Shahnam
+  journal: "IEEE Journal of Biomedical and Health Informatics"
+  year: 2026
+references:
+  - type: thesis
+    title: >
+      Hardware-Accelerated Deep Learning for Multimodal Biomedical Monitoring
+      with On-Device Adaptive Learning on Resource-Constrained Edge Devices
+    authors:
+      - family-names: Aly
+        given-names: Sara
+    institution:
+      name: "California State University, Northridge"
+    year: 2026
+    thesis-type: "Master's Thesis"
