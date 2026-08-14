@@ -132,7 +132,9 @@ MESA-Net achieves competitive per-task accuracy vs. single-task specialist basel
 ```
 MESA-Net/
 ├── checkpoints/
-│   ├── mesa_net_v3.pth              # FP32 trained model
+│   ├── model_a_balanced.pth         # Model A (paper primary) — 3-phase training, stress AUC 0.975, activity 94.1%, arrhythmia 90.8%
+│   ├── model_b_high_sensitivity.pth # Model B (high-sensitivity variant) — focal γ=2.5, stressed recall 97.8%, stress AUC 0.912
+│   ├── mesa_net_v3.pth              # Legacy checkpoint (same architecture, earlier training run)
 │   ├── mesa_net_int8_dynamic.pt     # INT8 dynamic-quantized model
 │   └── quantization_results.json
 ├── python/
@@ -158,6 +160,19 @@ MESA-Net/
 
 ---
 
+## Model Checkpoints
+
+Two model variants are provided, corresponding to Table III in the paper:
+
+| File | Variant | Training | Activity | Stress | Arrhythmia |
+|------|---------|----------|----------|--------|------------|
+| `model_a_balanced.pth` | **Model A** (primary) | 3-phase, focal γ=1.5/0.5 | **94.1%** | **87.1%** / AUC **0.975** | **90.8%** / AUC **0.879** |
+| `model_b_high_sensitivity.pth` | **Model B** (high-sensitivity) | Single-phase, focal γ=2.5 | 80.6% | 63.5% / AUC **0.912** | 86.4% |
+
+Model B trades 13.5 pp activity accuracy for 97.8% stressed recall — use it when missing a stressed event is the primary clinical risk. Both variants use identical architecture (112,552 parameters); only training hyperparameters differ.
+
+---
+
 ## Quick Start
 
 ```bash
@@ -170,7 +185,9 @@ sys.path.insert(0, 'python')
 from models.mesa_net_model import MESANet
 
 model = MESANet()
-model.load_state_dict(torch.load('checkpoints/mesa_net_v3.pth', map_location='cpu'))
+# Model A (balanced, paper primary): model_a_balanced.pth
+# Model B (high-sensitivity, 97.8% stressed recall): model_b_high_sensitivity.pth
+model.load_state_dict(torch.load('checkpoints/model_a_balanced.pth', map_location='cpu'))
 model.eval()
 
 # Input: [B, 5, 1000]  (5 channels × 1000 samples @ 100 Hz = 10 seconds)
